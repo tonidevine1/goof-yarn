@@ -343,6 +343,11 @@ argparse@^1.0.7:
   dependencies:
     sprintf-js "~1.0.2"
 
+argparse@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/argparse/-/argparse-2.0.1.tgz#246f50f3ca78a3240f6c997e8a9bd1eac49e4b38"
+  integrity sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==
+
 arr-diff@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/arr-diff/-/arr-diff-2.0.0.tgz#8f3b827f955a8bd669697e4a4256ac3ceae356cf"
@@ -905,14 +910,14 @@ caseless@~0.12.0:
   resolved "https://registry.yarnpkg.com/caseless/-/caseless-0.12.0.tgz#1b681c21ff84033c826543090689420d187151dc"
   integrity sha1-G2gcIf+EAzyCZUMJBolCDRhxUdw=
 
-cfenv@^1.0.4:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/cfenv/-/cfenv-1.2.2.tgz#5823bbfb63daca06d2f5617e2c7f4d863e1b99a8"
-  integrity sha512-fl8xrG9ezqfO7L664lL+/vkqXun0D/xS/0IJ9++IMHLR6SI0If56C/KIHy9oIGb8jq9swHZFdct1MfN/80yYUw==
+cfenv@^1.2.4:
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/cfenv/-/cfenv-1.2.4.tgz#4f34b431038fd899b370abd5e3f5046a6a451908"
+  integrity sha512-jWQ+3UXZauYyOXwHpMm74C0wM7+LDQmgMxWBGchg4as7+YyTL0pyx/CZ3dEvJyZVOB4SgKATc5naJky6cd9zYw==
   dependencies:
-    js-yaml "3.13.x"
+    js-yaml "4.0.x"
     ports "1.1.x"
-    underscore "1.9.x"
+    underscore "1.12.x"
 
 chalk@^1.1.3:
   version "1.1.3"
@@ -2842,7 +2847,14 @@ js-tokens@^3.0.2:
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-3.0.2.tgz#9866df395102130e38f7f996bceb65443209c25b"
   integrity sha1-mGbfOVECEw449/mWvOtlRDIJwls=
 
-js-yaml@3.13.x, js-yaml@^3.11.0, js-yaml@^3.13.1, js-yaml@^3.2.7, js-yaml@^3.3.1:
+js-yaml@4.0.x:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-4.0.0.tgz#f426bc0ff4b4051926cd588c71113183409a121f"
+  integrity sha512-pqon0s+4ScYUvX30wxQi3PogGFAlUyH0awepWvwkj4jD4v+ova3RiYw8bmA6x2rDrEaj8i/oWKoRxpVNW+Re8Q==
+  dependencies:
+    argparse "^2.0.1"
+
+js-yaml@^3.11.0, js-yaml@^3.13.1, js-yaml@^3.2.7, js-yaml@^3.3.1:
   version "3.13.1"
   resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.13.1.tgz#aff151b30bfdfa8e49e05da22e7415e9dfa37847"
   integrity sha512-YfbcO7jXDdyj0DGxYVSlSeQNHbD7XPWvrVWeVUujrQEoZzWJIRrCPoyk6kL6IAjAG2IolMK4T0hNUe0HOUs5Jw==
@@ -5564,10 +5576,10 @@ undeclared-identifiers@^1.1.2:
     simple-concat "^1.0.0"
     xtend "^4.0.1"
 
-underscore@1.9.x:
-  version "1.9.2"
-  resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.9.2.tgz#0c8d6f536d6f378a5af264a72f7bec50feb7cf2f"
-  integrity sha512-D39qtimx0c1fI3ya1Lnhk3E9nONswSKhnffBI0gME9C99fYOkNi04xs8K6pePLhvl1frbDemkaBQ5ikWllR2HQ==
+underscore@1.12.x:
+  version "1.12.1"
+  resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.12.1.tgz#7bb8cc9b3d397e201cf8553336d262544ead829e"
+  integrity sha512-hEQt0+ZLDVUMhebKxL4x1BTtDY7bavVofhZ9KZ4aI26X9SRaE+Y3m83XUL1UP2jn8ynjndwCCpEHdUG+9pP1Tw==
 
 unicode-length@^1.0.0:
   version "1.0.3"
