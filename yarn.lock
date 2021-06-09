@@ -1545,10 +1545,10 @@ duplexer3@^0.1.4:
   resolved "https://registry.yarnpkg.com/duplexer3/-/duplexer3-0.1.4.tgz#ee01dd1cac0ed3cbc7fdbea37dc0a8f1ce002ce2"
   integrity sha1-7gHdHKwO08vH/b6jfcCo8c4ALOI=
 
-dustjs-helpers@1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/dustjs-helpers/-/dustjs-helpers-1.5.0.tgz#150d43470420e77218edf5fb3affd5b9a129f789"
-  integrity sha1-FQ1DRwQg53IY7fX7Ov/VuaEp94k=
+dustjs-helpers@1.7.4:
+  version "1.7.4"
+  resolved "https://registry.yarnpkg.com/dustjs-helpers/-/dustjs-helpers-1.7.4.tgz#2e462b80e317262ad6c1c5a3c0fee0e82a826219"
+  integrity sha1-LkYrgOMXJirWwcWjwP7g6CqCYhk=
 
 dustjs-linkedin@2.5.0:
   version "2.5.0"
